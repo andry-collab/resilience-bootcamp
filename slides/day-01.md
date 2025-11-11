@@ -1,5 +1,7 @@
 ---
-title: Day 1 Slides
+title: Day 1 Slides – Intro to Resilience
 ---
-# Day 1 Slides
-Embed or link your deck here.
+# Day 1 Slides – Intro to Resilience
+
+Download:
+- [PPTX](day-01-intro-to-resilience.pptx)

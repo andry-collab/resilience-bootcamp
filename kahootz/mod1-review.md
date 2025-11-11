@@ -2,4 +2,6 @@
 title: Kahootz – Module 1 Review
 ---
 # Kahootz – Module 1 Review
-Live pin and notes go here.
+
+Play it here:
+- https://create.kahoot.it/share/enter-kahoot-title/8107fe2b-86c0-47b3-b0f4-3f46092fff82

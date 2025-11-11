@@ -1,0 +1,32 @@
+name: Build and Protect
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Install Staticrypt
+        run: npm install -g staticrypt
+
+      - name: Encrypt pages
+        run: bash .stati/gate.sh
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+
+      - name: Deploy encrypted site
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site
+          publish_branch: gh-pages
