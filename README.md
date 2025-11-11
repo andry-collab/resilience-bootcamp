@@ -1,3 +1,9 @@
+[Home](README.md)  
+[Presentation Slides](slides/index.md)  
+[Labs](labs/index.md)  
+[Quizzes](quizzes/index.md)  
+[Kahootz](kahootz/index.md)  
+[Resources](resources/index.md)
 # Resilience Bootcamp
 
 Course hub for labs, slides, Kahootz, quizzes, and resilience resources.
