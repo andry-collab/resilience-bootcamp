@@ -1,12 +1,4 @@
----
-title: Labs
----
-# Labs
-{% assign pages = site.pages | where_exp: "p", "p.path contains 'slides/'" %}
-<ul>
-{% for p in pages %}
-  {% if p.url != page.url and p.name != 'index.md' %}
-  <li><a href="{{ p.url | relative_url }}">{{ p.title | default: p.url }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+# Presentation Slides
+
+- [Day 1 Slides – Intro to Resilience](day-01.md)
+- [Day 2 Slides – Risk Assessment & Dependencies](day-02.md)
