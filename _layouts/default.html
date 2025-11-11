@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { max-width: 960px; margin: 2rem auto; padding: 0 1rem; font: 16px/1.6 system-ui, Arial, sans-serif; }
+    nav a { margin-right: 12px; }
+    h1,h2,h3 { margin-top: 1.2rem; }
+    pre,code { background:#f6f8fa; padding:2px 4px; }
+    ul { margin-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/labs/' | relative_url }}">Labs</a>
+    <a href="{{ '/slides/' | relative_url }}">Slides</a>
+    <a href="{{ '/kahootz/' | relative_url }}">Kahootz</a>
+    <a href="{{ '/quizzes/' | relative_url }}">Quizzes</a>
+    <a href="{{ '/resources/' | relative_url }}">Resources</a>
+  </nav>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
