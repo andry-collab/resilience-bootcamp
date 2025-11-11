@@ -16,3 +16,4 @@ Course hub for labs, slides, Kahootz, quizzes, and resilience resources.
 
 ## Resources
 - [Reading List](resources/reading-list.md)
+ 
