@@ -1,9 +1,7 @@
 title: Resilience Bootcamp
-description: Course hub for labs, slides, quizzes, and resources.
+description: Course hub for labs, slides, Kahootz, quizzes, and resilience resources.
+url: "https://andry-collab.github.io"
+baseurl: "/resilience-bootcamp"
 theme: jekyll-theme-cayman
 markdown: kramdown
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
+
